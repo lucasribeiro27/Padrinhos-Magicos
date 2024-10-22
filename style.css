@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #ffffff;
+}
+
+header {
+  background-color: #111111;
+  height: 20vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 20px;
+}
+header div {
+  width: 30vw;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+header div .firstButton {
+  width: 15vw;
+  height: 6vh;
+  background-color: #df0712;
+  border: none;
+  border-radius: 10px;
+}
+header div button {
+  width: 8vw;
+  height: 6vh;
+  border: solid 1px #ffffff;
+  border-radius: 10px;
+  background: #181818;
+}
+
+main {
+  background-color: #181818;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  padding-left: 20px;
+}
+
+.BoxText {
+  width: 80vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.secondBox {
+  display: flex;
+  justify-content: space-evenly;
+}
+.secondBox article {
+  width: 21vw;
+  height: 50vh;
+}
+.secondBox article img {
+  width: 20vw;
+}/*# sourceMappingURL=style.css.map */
