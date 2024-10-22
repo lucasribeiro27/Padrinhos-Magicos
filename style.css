@@ -1,17 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  color: #ffffff;
+  color: white;
+  font-family: "Inter", sans-serif;
 }
 
 header {
-  background-color: #111111;
   height: 20vh;
+  background-color: #111111;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding-left: 20px;
+  padding-left: 10vw;
+  padding-right: 10vw;
 }
 header div {
   width: 30vw;
@@ -20,45 +23,92 @@ header div {
   align-items: center;
   justify-content: space-evenly;
 }
-header div .firstButton {
+header div .FirstButton {
+  background-color: #DF0712;
   width: 15vw;
-  height: 6vh;
-  background-color: #df0712;
+  height: 7vh;
   border: none;
   border-radius: 10px;
+  font-size: 2vw;
 }
 header div button {
   width: 8vw;
-  height: 6vh;
-  border: solid 1px #ffffff;
+  height: 7vh;
+  background-color: #181818;
+  border: solid 1px white;
   border-radius: 10px;
-  background: #181818;
+  font-size: 2vw;
+}
+
+.imgLogo {
+  width: 20vw;
 }
 
 main {
-  background-color: #181818;
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 80vh;
-  padding-left: 20px;
+  background-color: #181818;
+}
+main .container {
+  height: 120vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
 }
 
-.BoxText {
+.FirstBox {
   width: 80vw;
   display: flex;
-  align-items: center;
   justify-content: space-between;
+  align-items: end;
+}
+.FirstBox .title {
+  font-weight: 700;
+  font-size: 3.5vw;
+}
+.FirstBox h2 {
+  font-weight: 300;
+  font-size: 3.5vw;
+}
+.FirstBox img {
+  width: 12vw;
 }
 
 .secondBox {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
 }
 .secondBox article {
-  width: 21vw;
-  height: 50vh;
+  width: 22vw;
+  height: 30vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
 .secondBox article img {
-  width: 20vw;
+  width: 22vw;
+}
+@media (max-width: 800px) {
+  .secondBox h3 {
+    font-size: 2.3vh;
+  }
+}
+@media (max-width: 800px) {
+  .secondBox p {
+    font-size: 2vw;
+  }
+}
+
+footer {
+  background-color: #111111;
+  height: 10vh;
+  padding-left: 20px;
+}
+footer div {
+  display: flex;
+  align-items: center;
+  height: 10vh;
+  width: 90vw;
+  justify-content: space-around;
 }/*# sourceMappingURL=style.css.map */
