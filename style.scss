@@ -92,11 +92,13 @@ main{
         }
       }
       h3{
+        font-size: 2vw;
         @media(max-width: 800px){
           font-size: 2.3vh;
         }
       }
       p{
+        font-size: 1.5vw;
         @media(max-width: 800px){
           font-size: 2vw;
         }
